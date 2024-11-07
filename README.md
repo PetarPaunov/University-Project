@@ -4,7 +4,6 @@ This project is a modern, interactive, and responsive resume built with HTML, CS
 
 ## Table of Contents
 
-- [Preview](#preview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
@@ -16,9 +15,9 @@ This project is a modern, interactive, and responsive resume built with HTML, CS
 
 ## Preview
 
-![Resume Preview](./images/resume-preview.png) <!-- Replace with an actual path to a screenshot if available -->
+![image](https://github.com/user-attachments/assets/ac860403-5f4e-4ae7-9418-6e6328daba99)
 
-Check out the live version here: [Your Resume Link](https://yourusername.github.io/resume) <!-- Update this link if hosted on GitHub Pages or any other platform -->
+Check out the live version here: [Your Resume Link](https://yourusername.github.io/resume) 
 
 ## Features
 
