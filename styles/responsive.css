@@ -1,0 +1,322 @@
+@media (max-width: 1100px){
+
+    .main{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .header .logo{
+        padding-left: 1rem;
+        width: 100px;
+    }
+
+    .main .contact .content .info{
+        width: 315px;
+    }
+
+    .footer{
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1040px) {
+
+    .main .about{
+        height: 250px;
+    }
+
+    .main .about .img{
+        width: 30%;
+    }
+    .main .projects .container .proj{
+        width: 350px;
+        height: 480px;
+    }
+
+    .main .projects .container .proj .bottom .dec{
+        font-size: 11px;
+    }
+
+    .main .certificates .certificate{
+        width: 240px;
+    }
+
+    .main .contact .content .info{
+        width: 250px;
+    }
+
+    .main .contact .content .info .where .p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 900px){
+    .main .about .img{
+        width: 30%;
+    }
+
+    .main .projects .container .proj{
+        width: 350px;
+        height: 480px;
+    }
+
+    .main .projects .container .proj .bottom .dec{
+        font-size: 11px;
+    }
+
+    .main .certificates .certificate{
+        width: 240px;
+    }
+
+    .main .contact .content .info{
+        width: 250px;
+    }
+
+    .main .contact .content .info .where .p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 870px){
+
+    .main .about .img{
+        width: 32%;
+    }
+
+    .toggle-button{
+        display: flex;
+    }
+
+    .header .nav .nav-list{
+        position: fixed;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0;
+        text-align: center;
+        top: 0px;
+        margin-top: 0;
+        width: 40%;
+        height: 100vh;
+        background-color: rgba(25,129,134,1);
+        transform: translateX(-130%);
+        transition: transform 1s ease, top 1s ease;
+    }
+
+    .header .nav .nav-list .nav-item{
+        border-bottom: 1px solid var(--clr-primary-white);
+        width: 50%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .header .nav .nav-list .nav-item:first-child{
+        margin-top: 2rem;
+    }
+
+    .header .nav .nav-list.active{
+        display: flex;
+        transform: translateX(0);
+        margin-top: 0;
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .main .intro{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main .intro .social-media{
+        margin-bottom: 2rem;
+    }
+
+    .main .intro .img{
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .main .about{
+        display: block;
+        text-align: center;
+    }
+
+    .main .about .img{
+        width: 50%;
+        margin: 1rem auto;
+        margin-bottom: 3rem;
+    }
+
+    .main .experiance .experiance-info{
+        font-size: 13px;
+    }
+
+    .main .certificates .certificate{
+        width: 200px;
+    }
+
+    .main .contact .content .info{
+        width: 230px;
+        height: 230px;
+    }
+
+    .main .contact .content .info .emote{
+        padding: 1.5rem;
+        font-size: 15px;
+    }
+
+    .main .contact .content .info .where .p{
+        width: 200px;
+    }
+
+    .main .contact .content .info .where .name{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .main .experiance{
+        display: block;
+    }
+
+    .main .experiance .education{
+        margin-bottom: 3rem;
+    }
+
+    .main .about .content{
+        margin-left: 0;
+    }
+
+    .main .intro{
+        margin-bottom: 5em;
+    }
+}
+
+@media (max-width: 786px){
+
+
+    .main .intro .contacts{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+
+
+
+
+    .main .projects .container .proj{
+        width: 300px;
+        height: 650px;
+    }
+
+    .main .skills{
+        display: block;
+    }
+
+    .main .skills .technical-skills{
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 730px){
+    .main .contact .content{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem   ;
+    }
+}
+
+@media (max-width: 700px){
+    .main .projects .container .proj .img{
+        display: none;
+        height: 100px;
+    }
+
+    .main .projects .container .proj{
+        height: 295px;
+    }
+
+    .main .certificates .certificate{
+        width: 150px;
+    }
+
+    .main .certificates .certificate .title{
+        font-size: 13px;
+    }
+
+    .main .about .img{
+        width: 70%;
+    }
+}
+
+@media (max-width: 530px) {
+    .main .intro .img{
+        width: 70%;
+    }
+}
+
+@media (max-width: 467px){
+    .main .intro .info .who .name{
+        font-size: 30px;
+    }
+
+    .main .intro .contacts{
+        width: 250px;
+    }
+
+    .main .intro .social-media{
+        width: 250px;
+        margin: 0 auto 2rem auto;
+    }
+
+    .main .intro .social-media .media{
+        font-size: 15px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 400px){
+
+    .main .certificates .certificate{
+        overflow: hidden;
+    }
+
+    .main .certificates .certificate .image .img{
+        width: 100%;
+        margin: 0 0 20px 0;
+        border-radius: 0px;
+    }
+
+    .main .certificates .certificate .link, .main .projects .proj .link{
+        padding: 5px 15px;
+        font-size: 13px;
+    }
+
+    .main .certificates .certificate .title{
+        font-size: 10px;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 380px){
+    .main .certificates .certificate{
+        width: 100px;
+    }
+
+    .main .certificates .certificate .link, .main .projects .proj .link{
+        padding: 2px 5px;
+        font-size: 10px;
+    }
+
+    .main .intro .img{
+        width: 80%;
+    }
+}
+
+@media (max-width: 280px) {
+    .main .intro .contacts,
+    .main .intro .social-media{
+        width: 220px;
+    }
+}

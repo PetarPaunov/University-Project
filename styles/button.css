@@ -1,0 +1,7 @@
+.cv-btn{
+    text-decoration: none;
+    background-color: var(--clr-primary-green);
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: var(--clr-primary-white);
+}

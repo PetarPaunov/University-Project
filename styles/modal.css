@@ -1,0 +1,47 @@
+.main .certificates .certificate .image .img{
+    width: 60%;
+    margin: 1.7rem auto;
+    transition: 400ms;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main .certificates .certificate .image .img:hover{
+    transform: scale(1.1);
+}
+
+.main .certificates .certificate .popup-image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.main .certificates .certificate .popup-image span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: var(--clr-primary-white);
+    cursor: pointer;
+    z-index: 100;
+}
+
+.main .certificates .certificate .popup-image img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+@media (max-width: 800px) {
+    .main .certificates .certificate .popup-image img{
+        width: 90%;
+    }
+}
